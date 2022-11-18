@@ -1,0 +1,395 @@
+
+
+*{
+     box-sizing: border-box;
+}
+
+body{
+     
+     position: absolute;
+     width: 100%;
+     /*Para poner fondoa la pagina*/
+     background: url("../img/fondo.jpg") repeat center;
+     /*esta propiedad sirve para que el fondo no se mueva,y se que de en el centro*/
+     background-color: black;
+     background-size: cover;
+     
+     display: flex;
+     flex-flow: column wrap; 
+     justify-items: center; 
+     /* esta propiedad sirve para que el boton no se expanda junto con la pantalla 
+     align-content: center;*/
+     
+
+}
+
+/* MENU  */
+
+.menu{
+     display: block;
+     padding: 10px 30px;
+     margin: 0;
+     width: 100%;
+     position: fixed;
+     z-index: 1;
+     background-color: #7e0c1092;
+     border-bottom: 1px white solid;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     list-style: none;
+     top: 0;
+     transition: top 0.5s;
+     /*sombras*/
+     -webkit-box-shadow: -2px 24px 49px -21px rgba(15,14,15,1);
+     -moz-box-shadow: -2px 24px 49px -21px rgba(15,14,15,1);
+     box-shadow: -2px 24px 49px -21px rgba(15,14,15,1);
+     -webkit-transition: top 0.5s;
+     -moz-transition: top 0.5s;
+     -ms-transition: top 0.5s;
+     -o-transition: top 0.5s;
+}
+
+ul li a {
+     font-size: 18px ;
+     text-decoration: none;
+     color: blanchedalmond;
+     font-family: sans-serif;
+
+     
+}
+
+
+
+
+
+
+
+
+.logo2{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     justify-content: space-around;
+}
+
+
+
+
+
+/* button novedades  */
+#boton_inicial{ 
+     color: white;  
+     background: transparent;
+     border: 2px solid white;
+     width: 125px;
+     opacity: 0.6;
+     
+
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+
+}
+
+
+
+.portadainicial{ 
+     padding-top: 70px;
+     display: flex;
+     justify-content: center;
+
+}
+
+
+
+
+
+/* PORTADA DE FONDO "MONSHOW */
+#intro { 
+     /*colordelaportadayurldelaimagen*/
+     position: relative;
+     height: 500px;
+     
+     background: linear-gradient(345deg,  rgba(218, 24, 24, 0.479), rgba(0, 0, 0, 0.808)), url(../img/monshow.png) center no-repeat;
+     background-size: cover;
+     
+     
+
+}
+
+
+
+/* CARTELERAS FRONTALES */
+
+
+#intro img{
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center ;
+     width: 150px;
+     
+     
+
+
+     /*sombreadodecartelera*/
+     -webkit-box-shadow: -6px 18px 55px -13px rgba(0,0,0,0.75);
+     -moz-box-shadow: -6px 18px 55px -13px rgba(0,0,0,0.75);
+     box-shadow: -6px 18px 55px -13px rgba(0,0,0,0.75);
+     /*redondeadodecartelera*/
+     border-radius: 128px 34px 0px 0px;
+     -moz-border-radius: 128px 34px 0px 0px;
+     -webkit-border-radius: 128px 34px 0px 0px;
+     border: 0px solid #000000;
+     -ms-border-radius: 128px 34px 0px 0px;
+     -o-border-radius: 128px 34px 0px 0px;
+     
+}
+
+.entrada_0 h3{
+     padding-top: 40px;
+     text-align: center;
+     letter-spacing:  2px;
+     opacity: 0.5;
+}
+
+.contenedor_main{
+     position: relative;
+     
+     background-color: black;
+     width: 100%;
+     padding: 50px;
+
+     
+     
+}
+
+h1, h2, h3, h4, h5, p{
+     color: white;
+}
+
+
+
+.itemspan{
+     background: white;
+     display: block;
+     width: 80px;
+     height: 1px;
+}
+
+.dbsimg{
+     background: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+
+.dbsimg a{
+     position: relative;
+     background-color:#8F0005;
+     border: solid black;
+     color:white;
+     text-transform:uppercase;
+     width: 32rem;
+     opacity: 0.6;
+
+     -webkit-border-radius:1.5em;
+     -moz-border-radius:1.5em;
+     -ms-border-radius:1.5em;
+     -o-border-radius:1.5em;
+}
+
+/* texto de seccion novedades */
+.texto_dbs{
+     padding: 20px;
+     margin-top: 1rem;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+
+     font-family: 'Raleway', sans-serif;
+}
+
+.titulos{
+     padding-bottom: 50px;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+     justify-items: center;
+}
+
+.fas{
+     color: rgba(218, 24, 24, 0.479);
+     
+}
+
+
+
+/* destacados  */
+.section_list{
+     display: flex;
+     flex-flow: row wrap;
+     align-content: center;
+     justify-content:space-around ;
+     
+}
+
+img{
+     height: auto;
+     max-width: 100%;
+}
+
+.entrada_0{
+     padding-top: 20px;
+     margin: 0;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Playfair Display', serif;
+     /* padding: 100px 40px; */
+
+     /* flexbox 
+     display: flex;
+     flex-flow: column wrap; 
+     justify-items: center; 
+     /* esta propiedad sirve para que el boton no se expanda junto con la pantalla
+      align-content: center; */
+}
+
+.portadainicial{
+     padding: 150px ;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     
+     
+     
+     
+}
+
+.foto1{
+     
+}
+
+.foto3{
+     
+}
+
+.foto2{
+     
+}
+
+#botontrailer{
+     color: black;  
+     background: transparent;
+     border: 2px solid black;
+     /* width: 700px; */
+
+     /* flexbox  */
+     display: flex;
+     flex-flow: column wrap; 
+     justify-items: center; 
+     /* esta propiedad sirve para que el boton no se expanda junto con la pantalla 
+     align-content: center;*/
+}
+
+#botonpeliculas{
+     
+     color: blanchedalmond;
+     background: transparent;
+     border: 2px solid white;
+     /* width: 700px; */
+
+     /* flexbox  */
+     
+     flex-flow: column wrap; 
+     justify-items: center; 
+     /* esta propiedad sirve para que el boton no se expanda junto con la pantalla 
+     align-content: center;*/
+}
+
+.peliculasimg{
+     padding: 50px 25px;
+     
+} 
+
+#img4{
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+     justify-items: center;
+     justify-content: space-around;
+}
+
+
+.fotospi,.fotoqpa, .fotodbz, .fotocable{
+     padding: 30px 40px;
+}
+
+.fotocable{
+     padding: 23px 60px;
+}
+
+#botonpeliculas{
+     display: flex;
+     flex-flow: column;
+     opacity: 0.5;
+}
+
+#formulario{
+     background: linear-gradient(345deg,  rgba(104, 104, 104, 0.096), rgba(114, 106, 106, 0.164));
+     color: tomato;
+     
+     display: flex;
+     flex-flow: column wrap;
+     align-content: center;
+
+}
+
+.formtext{
+     text-align: center;
+}
+
+footer{
+     padding: 40px 30px;
+
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: end;
+     align-content: center;
+}
+
+/* Pie de pagina */
+
+
+footer p{
+
+     display: flex;
+     flex-flow: column wrap;
+     
+
+     text-align: center;
+     text-emphasis: "x";
+}
+
+footer .redessociales{
+     padding-top: 60px;
+
+     display: flex;
+     justify-content: space-around;
+     align-content: center;
+     justify-content: space-between;
+}
+
+ul .section_list span i{
+     color: thistle;
+
+}
+
+.iconosdbs{
+     color: white;
+}
+
