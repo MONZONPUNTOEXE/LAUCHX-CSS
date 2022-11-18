@@ -2,7 +2,7 @@
 
 ######  Este es una practica personal de CSS para LAUNCHX
  #####  Mi idea fue hacer una copia de Netflix usando CSS
-#####  Link del sitio:  https://rusticugers-html.netlify.app/
+#####  Link del sitio:  https://lauchx-practica-css.netlify.app/
 
 - Hice el **HTML** con sus respectivas secciones (**heading**, **navbar**, **section** y **footer**)
 - Recopile varias imagenes de mis peliculas favoritas
